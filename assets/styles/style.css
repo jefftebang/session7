@@ -1,0 +1,261 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*CSS for Header*/
+
+header {
+	background: url(../images/bg.jpg);
+	height: 110vh;
+	background-size: cover;
+	background-position: center;
+}
+
+nav {
+	height: 75px;
+	border-bottom: 2px solid whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav > ul{
+	display: flex;
+	list-style-type: none;
+	color: white;
+}
+
+nav > ul > li{
+	margin: 0 20px;
+}
+
+/*Styling for all buttons*/
+
+.btn {
+	padding: 10px 20px;
+	border-radius: 15px;
+	border: none;
+}
+
+.btn-product{
+	background-color: salmon;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#homeBtn {
+	position: absolute;
+	right: 100px;
+	top: 18px;
+	transition: .4s;
+}
+
+#homeBtn:hover {
+	top: 15px;
+}
+
+/*Disappearing Menu CSS*/
+
+.submenu {
+	background-color: lightgray;
+	color: black;
+	width: 80%;
+	border-radius: 15px;
+	height: 200px;
+	display: flex;
+	position: absolute;
+	left: 10%;
+	top: 50px;
+	visibility: hidden;
+}
+
+.submenu > div {
+	width: 25%;
+}
+
+.submenu > div + div {
+	border-left: 1px solid black;
+}
+
+div > h4, div > p{
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.submenu > div > p:hover {
+	background-color: darkgray;
+}
+
+.submenu > div > p:hover {
+	background-color: darkgray;
+	transition: 0.5s;
+}
+
+#mega-menu:hover > .submenu, #mega-menu > .submenu:hover {
+	visibility: visible;
+}
+
+.header-text {
+	height: 90vh;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: orange;
+}
+
+.header-text > h1 {
+	font-size:  70px;
+}
+
+.header-text > h1, .header-text > p, .header-text > div > .btn {
+	margin-left: 50px;
+}
+
+.header-text> div > button {
+	margin-top: 20px;
+	background-color: navy;
+	color: white;
+}
+
+/*End CSS for Header*/
+
+/*Start of Quote CSS*/
+
+.quote {
+	height: 50vh;
+	border-bottom: 1px solid whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.quote > div {
+	width: 50%;
+}
+
+.quote > div > div {
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*End of Quote CSS*/
+
+/*Start of Stats CSS*/
+
+.stats {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 350px;
+	height: 100vh;
+	margin-left: 20vh;
+	margin-right: 20vh;
+}
+
+.stats > div > img {
+	height: 340px;
+	border-radius: 5px;
+}
+
+.stat {
+	display: flex;
+	justify-content: center;
+}
+
+.revenue {
+	font-size: 70px;
+	margin-left: 10px;
+}
+
+#stat1 {
+	color: gray;
+	font-size: 20px;
+}
+
+#stat2 {
+	margin-left: 10px;
+	font-size: 35px;
+}
+
+#stat3 {
+	margin-left: 10px;
+	font-size: 50px;
+}
+
+/*End of Stats CSS*/
+
+/*Start of Comments CSS*/
+
+.comments {
+	height: 100vh;
+}
+
+.comments > p, h1 {
+	text-align: center;
+}
+
+.comments > p {
+	color: gray;
+	font-size: 20px;
+}
+
+.comments > h1 {
+	font-size: 35px;
+}
+
+.comment1 {
+	/*background-color: red;*/
+	border: 1px solid gray;
+	height: 380px;
+	width: 330px;
+	margin: 0 25px;
+	border-radius: 5px;
+}
+
+.comment2 {
+	/*background-color: green;*/
+	border: 1px solid gray;
+	height: 380px;
+	width: 330px;
+	margin: 0 25px;
+	border-radius: 5px;
+}
+
+.comment3 {
+	/*background-color: blue;*/
+	border: 1px solid gray;
+	height: 380px;
+	width: 330px;
+	margin: 0 25px;
+	border-radius: 5px;
+}
+
+#comments {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+#comments > div > p {
+	color: gray;
+	margin: 35px;
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+#comments > div > h3 {
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+#comments > div > hr {
+	position: relative;
+	bottom: 20px;
+}
+/*End of Comments CSS*/
