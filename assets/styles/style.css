@@ -194,17 +194,17 @@ div > h4, div > p{
 	height: 100vh;
 }
 
-.comments > p, h1 {
+.comments > div > p, h1 {
 	text-align: center;
 }
 
-.comments > p {
+.comments > div > p {
 	color: gray;
-	font-size: 20px;
+	font-size: 30px;
 }
 
-.comments > h1 {
-	font-size: 35px;
+.comments > div > h1 {
+	font-size: 50px;
 }
 
 .comment1 {
@@ -246,16 +246,13 @@ div > h4, div > p{
 	margin: 35px;
 	font-size: 20px;
 	line-height: 1.6;
+	height: 55%;
 }
 
 #comments > div > h3 {
 	text-align: center;
 	position: relative;
-	top: 70px;
+	top: 50px;
 }
 
-#comments > div > hr {
-	position: relative;
-	bottom: 20px;
-}
 /*End of Comments CSS*/
