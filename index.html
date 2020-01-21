@@ -10,9 +10,30 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
 
+	<!-- Disable Viewport Zooming, this is a required meta tag for web responsiveness -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<!-- Favicon -->
+	<link rel="icon" href="assets/hf.ico">
+
 </head>
 <body>
 	<header>
+		
+		<button class="btn btn-product" id="homeBtn"><a href="#quote">Look inside</a></button>
+
+		<div class="header-text">
+			<h1>Stay classy.</h1>
+			<h1>Buy elegant.</h1>
+			<p>
+				Live in a classy home. Buy elegant furnitures at HOME FURNITURES.
+			</p>
+			<div>
+				<button class="btn btn-lm"><a href="#quote">Learn more</a></button>
+			</div>
+		</div>
+
+	</header>
 		<nav>
 			<ul>
 				<li>Home</li>
@@ -52,35 +73,21 @@
 				<li>Contact</li>
 			</ul>
 		</nav>
-		<button class="btn btn-product" id="homeBtn">Look inside</button>
-
-		<div class="header-text">
-			<h1>Stay classy.</h1>
-			<h1>Buy elegant.</h1>
-			<p>
-				Live in a classy home. Buy elegant furnitures at HOME FURNITURES.
-			</p>
-			<div>
-				<button class="btn">Learn more</button>
-			</div>
-		</div>
-
-	</header>
 
 	<!-- First Section -->
-	<section class="quote">
+	<section class="quote" id="quote">
 		<div>
 			<p>
-				"Designing is my hobby. If I didn't do what I do for a living - at some point when I don't do this for a living - I'll probably just do design work. I love finding really special pieces of furniture.
+				<em>"Designing is my hobby. If I didn't do what I do for a living - at some point when I don't do this for a living - I'll probably just do design work. I love finding really special pieces of furniture."</em>
 			</p>
 			<div>
-				<button class="btn">Learn more</button>
+				<button class="btn btn-quote"><a href="#stats">Learn more</a></button>
 			</div>
 		</div>
 	</section>
 
 	<!-- Second Section -->
-	<section class="stats">
+	<section class="stats" id="stats">
 		<div>
 			<img src="assets/images/kitchen.jpg">
 		</div>
@@ -106,7 +113,7 @@
 	</section>
 	<section class="comments">
 		<div>
-			<p>People who love us</p>
+			<p id="love">People who love us</p>
 			<h1>Don't take our word for it</h1>
 		</div>
 
@@ -115,16 +122,19 @@
 				<p>The Platform Club ordered a range of stock from Home Furniture. The furniture was the right fit for our venue, excellent quality, sturdy and durable. Thank you!</p>
 				<hr>
 				<h3>Amelia Edmondson</h3>
+				<img src="assets/images/amelia.jpg">
 			</div>
 			<div class="comment2">
 				<p>Bought another 10 chairs to 'top up' on the 50 we bought last autumn.  Order went through quickly and easily. Thank you!</p>
 				<hr>
 				<h3>Bathead Smith</h3>
+				<img src="assets/images/bathead.jpg">
 			</div>
 			<div class="comment3">
 				<p>I have Just purchased 30 function chairs from Trent Furniture for our Sports Club, the service was excellent from start to finish. Thank you!</p>
 				<hr>
 				<h3>Ann Whyntie</h3>
+				<img src="assets/images/ann.jpg">
 			</div>
 		</div>
 	</section>
