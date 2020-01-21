@@ -118,7 +118,7 @@ div > h4, div > p{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	color: orange;
+	color: #fd5e53;
 }
 
 .header-text > h1 {
